@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C588C08E1C30304C00B92423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C08D1C30304C00B92423 /* AppDelegate.swift */; };
+		C588C0901C30304C00B92423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C08F1C30304C00B92423 /* ViewController.swift */; };
+		C588C0931C30304C00B92423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588C0911C30304C00B92423 /* Main.storyboard */; };
+		C588C0951C30304C00B92423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C588C0941C30304C00B92423 /* Assets.xcassets */; };
+		C588C0981C30304C00B92423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588C0961C30304C00B92423 /* LaunchScreen.storyboard */; };
+		C588C0A31C30304C00B92423 /* HouseWorkAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0A21C30304C00B92423 /* HouseWorkAlarmTests.swift */; };
+		C588C0AE1C30304C00B92423 /* HouseWorkAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C588C09F1C30304C00B92423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C588C0821C30304C00B92423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C588C0891C30304C00B92423;
+			remoteInfo = HouseWorkAlarm;
+		};
+		C588C0AA1C30304C00B92423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C588C0821C30304C00B92423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C588C0891C30304C00B92423;
+			remoteInfo = HouseWorkAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C588C08A1C30304C00B92423 /* HouseWorkAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseWorkAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588C08D1C30304C00B92423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C588C08F1C30304C00B92423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C588C0921C30304C00B92423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C588C0941C30304C00B92423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C588C0971C30304C00B92423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C588C0991C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588C09E1C30304C00B92423 /* HouseWorkAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseWorkAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588C0A21C30304C00B92423 /* HouseWorkAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWorkAlarmTests.swift; sourceTree = "<group>"; };
+		C588C0A41C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588C0A91C30304C00B92423 /* HouseWorkAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseWorkAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWorkAlarmUITests.swift; sourceTree = "<group>"; };
+		C588C0AF1C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C588C0871C30304C00B92423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C09B1C30304C00B92423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C0A61C30304C00B92423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C588C0811C30304C00B92423 = {
+			isa = PBXGroup;
+			children = (
+				C588C08C1C30304C00B92423 /* HouseWorkAlarm */,
+				C588C0A11C30304C00B92423 /* HouseWorkAlarmTests */,
+				C588C0AC1C30304C00B92423 /* HouseWorkAlarmUITests */,
+				C588C08B1C30304C00B92423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C588C08B1C30304C00B92423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C588C08A1C30304C00B92423 /* HouseWorkAlarm.app */,
+				C588C09E1C30304C00B92423 /* HouseWorkAlarmTests.xctest */,
+				C588C0A91C30304C00B92423 /* HouseWorkAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C588C08C1C30304C00B92423 /* HouseWorkAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				C588C08D1C30304C00B92423 /* AppDelegate.swift */,
+				C588C08F1C30304C00B92423 /* ViewController.swift */,
+				C588C0911C30304C00B92423 /* Main.storyboard */,
+				C588C0941C30304C00B92423 /* Assets.xcassets */,
+				C588C0961C30304C00B92423 /* LaunchScreen.storyboard */,
+				C588C0991C30304C00B92423 /* Info.plist */,
+			);
+			path = HouseWorkAlarm;
+			sourceTree = "<group>";
+		};
+		C588C0A11C30304C00B92423 /* HouseWorkAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				C588C0A21C30304C00B92423 /* HouseWorkAlarmTests.swift */,
+				C588C0A41C30304C00B92423 /* Info.plist */,
+			);
+			path = HouseWorkAlarmTests;
+			sourceTree = "<group>";
+		};
+		C588C0AC1C30304C00B92423 /* HouseWorkAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */,
+				C588C0AF1C30304C00B92423 /* Info.plist */,
+			);
+			path = HouseWorkAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C588C0891C30304C00B92423 /* HouseWorkAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588C0B21C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarm" */;
+			buildPhases = (
+				C588C0861C30304C00B92423 /* Sources */,
+				C588C0871C30304C00B92423 /* Frameworks */,
+				C588C0881C30304C00B92423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HouseWorkAlarm;
+			productName = HouseWorkAlarm;
+			productReference = C588C08A1C30304C00B92423 /* HouseWorkAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C588C09D1C30304C00B92423 /* HouseWorkAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588C0B51C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarmTests" */;
+			buildPhases = (
+				C588C09A1C30304C00B92423 /* Sources */,
+				C588C09B1C30304C00B92423 /* Frameworks */,
+				C588C09C1C30304C00B92423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C588C0A01C30304C00B92423 /* PBXTargetDependency */,
+			);
+			name = HouseWorkAlarmTests;
+			productName = HouseWorkAlarmTests;
+			productReference = C588C09E1C30304C00B92423 /* HouseWorkAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C588C0A81C30304C00B92423 /* HouseWorkAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C588C0B81C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarmUITests" */;
+			buildPhases = (
+				C588C0A51C30304C00B92423 /* Sources */,
+				C588C0A61C30304C00B92423 /* Frameworks */,
+				C588C0A71C30304C00B92423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C588C0AB1C30304C00B92423 /* PBXTargetDependency */,
+			);
+			name = HouseWorkAlarmUITests;
+			productName = HouseWorkAlarmUITests;
+			productReference = C588C0A91C30304C00B92423 /* HouseWorkAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C588C0821C30304C00B92423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MikiyaFukuda;
+				TargetAttributes = {
+					C588C0891C30304C00B92423 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C588C09D1C30304C00B92423 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C588C0891C30304C00B92423;
+					};
+					C588C0A81C30304C00B92423 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C588C0891C30304C00B92423;
+					};
+				};
+			};
+			buildConfigurationList = C588C0851C30304C00B92423 /* Build configuration list for PBXProject "HouseWorkAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C588C0811C30304C00B92423;
+			productRefGroup = C588C08B1C30304C00B92423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C588C0891C30304C00B92423 /* HouseWorkAlarm */,
+				C588C09D1C30304C00B92423 /* HouseWorkAlarmTests */,
+				C588C0A81C30304C00B92423 /* HouseWorkAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C588C0881C30304C00B92423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588C0981C30304C00B92423 /* LaunchScreen.storyboard in Resources */,
+				C588C0951C30304C00B92423 /* Assets.xcassets in Resources */,
+				C588C0931C30304C00B92423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C09C1C30304C00B92423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C0A71C30304C00B92423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C588C0861C30304C00B92423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588C0901C30304C00B92423 /* ViewController.swift in Sources */,
+				C588C08E1C30304C00B92423 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C09A1C30304C00B92423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588C0A31C30304C00B92423 /* HouseWorkAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C588C0A51C30304C00B92423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C588C0AE1C30304C00B92423 /* HouseWorkAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C588C0A01C30304C00B92423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C588C0891C30304C00B92423 /* HouseWorkAlarm */;
+			targetProxy = C588C09F1C30304C00B92423 /* PBXContainerItemProxy */;
+		};
+		C588C0AB1C30304C00B92423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C588C0891C30304C00B92423 /* HouseWorkAlarm */;
+			targetProxy = C588C0AA1C30304C00B92423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C588C0911C30304C00B92423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C588C0921C30304C00B92423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C588C0961C30304C00B92423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C588C0971C30304C00B92423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C588C0B01C30304C00B92423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C588C0B11C30304C00B92423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C588C0B31C30304C00B92423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HouseWorkAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C588C0B41C30304C00B92423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HouseWorkAlarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C588C0B61C30304C00B92423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HouseWorkAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseWorkAlarm.app/HouseWorkAlarm";
+			};
+			name = Debug;
+		};
+		C588C0B71C30304C00B92423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HouseWorkAlarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HouseWorkAlarm.app/HouseWorkAlarm";
+			};
+			name = Release;
+		};
+		C588C0B91C30304C00B92423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HouseWorkAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HouseWorkAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C588C0BA1C30304C00B92423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HouseWorkAlarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.musclehuslte.HouseWorkAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HouseWorkAlarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C588C0851C30304C00B92423 /* Build configuration list for PBXProject "HouseWorkAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588C0B01C30304C00B92423 /* Debug */,
+				C588C0B11C30304C00B92423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C588C0B21C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588C0B31C30304C00B92423 /* Debug */,
+				C588C0B41C30304C00B92423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C588C0B51C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588C0B61C30304C00B92423 /* Debug */,
+				C588C0B71C30304C00B92423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C588C0B81C30304C00B92423 /* Build configuration list for PBXNativeTarget "HouseWorkAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C588C0B91C30304C00B92423 /* Debug */,
+				C588C0BA1C30304C00B92423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C588C0821C30304C00B92423 /* Project object */;
+}
