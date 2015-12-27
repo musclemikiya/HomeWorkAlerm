@@ -12,10 +12,20 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let tabBarController = UITabBarController()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // If viewControllers increase, add here.
+        let viewControllers = NSArray(objects:
+            UINavigationController(rootViewController: MakeTaskViewController(nibName: "MakeTaskViewController", bundle: nil))
+        )
+        
+        tabBarController.setViewControllers(viewControllers as? [UIViewController], animated: false)
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.rootViewController = tabBarController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

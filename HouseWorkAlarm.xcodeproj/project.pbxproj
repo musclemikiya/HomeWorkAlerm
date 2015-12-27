@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		C588C08E1C30304C00B92423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C08D1C30304C00B92423 /* AppDelegate.swift */; };
-		C588C0901C30304C00B92423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C08F1C30304C00B92423 /* ViewController.swift */; };
-		C588C0931C30304C00B92423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588C0911C30304C00B92423 /* Main.storyboard */; };
 		C588C0951C30304C00B92423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C588C0941C30304C00B92423 /* Assets.xcassets */; };
 		C588C0981C30304C00B92423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C588C0961C30304C00B92423 /* LaunchScreen.storyboard */; };
 		C588C0A31C30304C00B92423 /* HouseWorkAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0A21C30304C00B92423 /* HouseWorkAlarmTests.swift */; };
 		C588C0AE1C30304C00B92423 /* HouseWorkAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */; };
+		C588C0C01C30407B00B92423 /* MakeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */; };
+		C588C0C11C30407B00B92423 /* MakeTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +36,6 @@
 /* Begin PBXFileReference section */
 		C588C08A1C30304C00B92423 /* HouseWorkAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HouseWorkAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C588C08D1C30304C00B92423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C588C08F1C30304C00B92423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C588C0921C30304C00B92423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C588C0941C30304C00B92423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C588C0971C30304C00B92423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C588C0991C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		C588C0A91C30304C00B92423 /* HouseWorkAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseWorkAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseWorkAlarmUITests.swift; sourceTree = "<group>"; };
 		C588C0AF1C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeTaskViewController.swift; path = Controllers/MakeTaskViewController.swift; sourceTree = "<group>"; };
+		C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MakeTaskViewController.xib; path = Controllers/MakeTaskViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +97,8 @@
 		C588C08C1C30304C00B92423 /* HouseWorkAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				C588C0BB1C303FB000B92423 /* Controllers */,
 				C588C08D1C30304C00B92423 /* AppDelegate.swift */,
-				C588C08F1C30304C00B92423 /* ViewController.swift */,
-				C588C0911C30304C00B92423 /* Main.storyboard */,
 				C588C0941C30304C00B92423 /* Assets.xcassets */,
 				C588C0961C30304C00B92423 /* LaunchScreen.storyboard */,
 				C588C0991C30304C00B92423 /* Info.plist */,
@@ -123,6 +122,15 @@
 				C588C0AF1C30304C00B92423 /* Info.plist */,
 			);
 			path = HouseWorkAlarmUITests;
+			sourceTree = "<group>";
+		};
+		C588C0BB1C303FB000B92423 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */,
+				C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C588C0C11C30407B00B92423 /* MakeTaskViewController.xib in Resources */,
 				C588C0981C30304C00B92423 /* LaunchScreen.storyboard in Resources */,
 				C588C0951C30304C00B92423 /* Assets.xcassets in Resources */,
-				C588C0931C30304C00B92423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C588C0901C30304C00B92423 /* ViewController.swift in Sources */,
 				C588C08E1C30304C00B92423 /* AppDelegate.swift in Sources */,
+				C588C0C01C30407B00B92423 /* MakeTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C588C0911C30304C00B92423 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C588C0921C30304C00B92423 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C588C0961C30304C00B92423 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
