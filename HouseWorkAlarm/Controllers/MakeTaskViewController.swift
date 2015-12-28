@@ -10,6 +10,10 @@ import UIKit
 
 class MakeTaskViewController: UIViewController {
 
+    @IBOutlet weak var name: UITextField!
+    @IBOutlet weak var interval: UITextField!
+    @IBOutlet weak var startDate: UIDatePicker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
