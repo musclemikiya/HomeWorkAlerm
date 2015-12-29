@@ -25,6 +25,29 @@ class MakeTaskViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // 登録処理
+    @IBAction func register(sender: AnyObject) {
+        let taskName = name.text! as NSString
+        let intervalString = interval.text! as NSString
+        let date = startDate.date
+        
+        // 入力チェック
+        if (taskName.length == 0 || intervalString.length == 0) {
+            let alert = UIAlertController(title: "エラー",
+            message: "入力されていない項目があります。",
+            preferredStyle: .Alert)
+            let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
+            alert.addAction(action)
+            
+            presentViewController(alert, animated: true, completion: nil)
+        
+            return;
+        }
+        
+        print(taskName)
+        
+        // 保存処理
+    }
 
     /*
     // MARK: - Navigation
