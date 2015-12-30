@@ -4,7 +4,7 @@
 # use_frameworks!
 
 target 'HouseWorkAlarm' do
-
+    pod 'Realm'
 end
 
 target 'HouseWorkAlarmTests' do
