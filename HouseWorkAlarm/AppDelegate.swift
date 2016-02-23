@@ -17,8 +17,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         // If viewControllers increase, add here.
+        let makeTaskVC = MakeTaskViewController(nibName: "MakeTaskViewController", bundle: nil)
+        makeTaskVC.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Featured, tag: 0)
+        
+        let taskListVC = TaskListTableViewController()
+        taskListVC.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.Bookmarks, tag: 0)
+        
         let viewControllers = NSArray(objects:
-            UINavigationController(rootViewController: MakeTaskViewController(nibName: "MakeTaskViewController", bundle: nil))
+            UINavigationController(rootViewController: makeTaskVC),
+            UINavigationController(rootViewController: taskListVC)
         )
         
         tabBarController.setViewControllers(viewControllers as? [UIViewController], animated: false)

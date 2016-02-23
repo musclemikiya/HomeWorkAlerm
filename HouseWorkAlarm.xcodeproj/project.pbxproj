@@ -16,6 +16,7 @@
 		C588C0AE1C30304C00B92423 /* HouseWorkAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0AD1C30304C00B92423 /* HouseWorkAlarmUITests.swift */; };
 		C588C0C01C30407B00B92423 /* MakeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */; };
 		C588C0C11C30407B00B92423 /* MakeTaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */; };
+		C5EA238F1C7CB2CD00356B2A /* TaskListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EA238E1C7CB2CD00356B2A /* TaskListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C588C0AF1C30304C00B92423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakeTaskViewController.swift; path = Controllers/MakeTaskViewController.swift; sourceTree = "<group>"; };
 		C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MakeTaskViewController.xib; path = Controllers/MakeTaskViewController.xib; sourceTree = "<group>"; };
+		C5EA238E1C7CB2CD00356B2A /* TaskListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskListTableViewController.swift; path = Controllers/TaskListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			children = (
 				C588C0BE1C30407B00B92423 /* MakeTaskViewController.swift */,
 				C588C0BF1C30407B00B92423 /* MakeTaskViewController.xib */,
+				C5EA238E1C7CB2CD00356B2A /* TaskListTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EA238F1C7CB2CD00356B2A /* TaskListTableViewController.swift in Sources */,
 				C588C08E1C30304C00B92423 /* AppDelegate.swift in Sources */,
 				C588C0C01C30407B00B92423 /* MakeTaskViewController.swift in Sources */,
 			);
