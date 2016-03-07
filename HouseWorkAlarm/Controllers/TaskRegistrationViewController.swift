@@ -1,5 +1,5 @@
 //
-//  MakeTaskViewController.swift
+//  TaskRegistrationViewController.swift
 //  HouseWorkAlarm
 //
 //  Created by MikiyaFukuda on 2015/12/28.
@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import RealmSwift
 
-class MakeTaskViewController: UIViewController {
+class TaskRegistrationViewController: UIViewController {
 
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var interval: UITextField!
@@ -46,17 +47,8 @@ class MakeTaskViewController: UIViewController {
         
         print(taskName)
         
-        // 保存処理
+        // realmに保存処理
+//        var realm = Realm.init()
+        
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
